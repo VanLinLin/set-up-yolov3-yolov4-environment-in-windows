@@ -25,7 +25,10 @@
         *   [Visual Studio 2019 安裝步驟步驟]
 		
     *   [OpenCV](#opencv)
-        *   [OpenCV 安裝步驟步驟](#step)
+        *   [OpenCV 安裝步驟步驟]
+
+    *   [darknet](#darknet)
+        *   [darknet 安裝步驟]
 
 *   [編譯步驟](#compile)
 
@@ -140,6 +143,29 @@ P.S.選擇local或network皆可
 <h3 id="visual_studio">。Visual Studio 2019</h3>
 
 ***
+
+1.進入連結後，選擇community 2019，會自動開始下載的動作
+
+![螢幕擷取畫面 2021-08-12 234727](https://user-images.githubusercontent.com/37219754/129227533-bc1fcaee-9a1e-4d98-a78f-2c4e0e98727b.jpg)
+
+2.下載完成後，會得到一個執行檔
+
+![image](https://user-images.githubusercontent.com/37219754/129227856-9e65f97c-3a27-4d9c-bb51-d3e9a06f76b0.png)
+
+3.啟動執行檔，並勾選需要的模塊(左下角可以選擇下載位置)
+
+![image](https://user-images.githubusercontent.com/37219754/129228291-9cb4c189-2ad9-4a78-a486-167a4d2e5e73.png)
+
+![image](https://user-images.githubusercontent.com/37219754/129228451-1e6fd30b-a07a-4d49-8b71-2960efb20fcd.png)
+
+
+<h3 id="opencv">。OpenCV</h3>
+
+***
+
+1.進入連結後，找到 opencv3.4.0 for windows 並下載
+
+![螢幕擷取畫面 2021-08-12 235655](https://user-images.githubusercontent.com/37219754/129229105-1b7bf2c5-2691-479c-b783-7a04056f3539.jpg)
 
 
 
