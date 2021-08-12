@@ -27,10 +27,11 @@
 		
     *   [OpenCV](#opencv)
         *   [OpenCV 安裝步驟](#download)
-        *   [環境變數設置步驟](#set_up)
+        *   [環境變數設置步驟](#change_environment_variable)
 
     *   [darknet](#darknet)
-        *   [darknet 安裝步驟]
+        *   [darknet 安裝步驟](#darknet_set_up)
+        *   [CUDA 版本修改](#version)
 
 *   [編譯步驟](#compile)
 
@@ -175,7 +176,7 @@ P.S.選擇local或network皆可
 
 ![image](https://user-images.githubusercontent.com/37219754/129229974-9240dd07-ee56-4074-b0f9-3d775972c772.png)
 
-<h4 id="set_up">。環境變數設置步驟</h4>
+<h4 id="change_environment_variable">。環境變數設置步驟</h4>
 
 1.搜尋環境變數並開啟
 
@@ -208,9 +209,22 @@ P.S.選擇local或network皆可
 
 ***
 
+<h4 id="darknet_set_up">。darknet 安裝步驟</h4>
+
 1.進入網址後，選擇code -> download ZIP，並將檔案下載至自訂路徑
 
 ![螢幕擷取畫面 2021-08-13 002217](https://user-images.githubusercontent.com/37219754/129232587-99ea8be6-635f-4a6e-97db-27494e1edfe0.jpg)
+
+2.下載完成後，會得到一個zip壓縮檔
+
+![image](https://user-images.githubusercontent.com/37219754/129233011-0a2474ce-d700-49c7-9355-8c2246950a2f.png)
+
+3.解壓縮後，會得到一份darknet-master資料夾
+
+![image](https://user-images.githubusercontent.com/37219754/129233130-36681651-a4a4-4b5b-a54f-43838ae79cce.png)
+
+<h4 id="version">。CUDA 版本修改</h4>
+
 
 
 <h3 id="power">。顯示卡算力表</h3>
