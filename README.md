@@ -256,3 +256,10 @@ P.S.選擇local或network皆可
 
 ![螢幕擷取畫面 2021-08-13 004840](https://user-images.githubusercontent.com/37219754/129236309-25a309cd-e726-428c-9ded-6ecf1ec45dd2.jpg)
 
+3.進入自己的顯卡名單
+
+![螢幕擷取畫面 2021-08-13 005557](https://user-images.githubusercontent.com/37219754/129237411-350c50b2-8213-4617-b317-c36ae3d3fd02.jpg)
+
+4.取得顯卡算力(須乘以10)，e.g. 6.1 x 10 = 61
+
+![螢幕擷取畫面 2021-08-13 005832](https://user-images.githubusercontent.com/37219754/129237639-88775c3e-9260-493a-808c-00a3ed36667d.jpg)
