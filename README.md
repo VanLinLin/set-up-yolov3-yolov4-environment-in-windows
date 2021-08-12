@@ -184,6 +184,24 @@ P.S.選擇local或network皆可
 
 ![螢幕擷取畫面 2021-08-13 001022](https://user-images.githubusercontent.com/37219754/129230861-9a78063d-1f8e-4a62-8ab2-1ad6d1532786.jpg)
 
+3.選擇新增(N)
+
+![螢幕擷取畫面 2021-08-13 001213](https://user-images.githubusercontent.com/37219754/129231139-91a7cfdb-420c-484e-98ea-ad14fb20bb13.jpg)
+
+4.將opencv檔案內的opencv以及opencv2目錄新增進去(可使用瀏覽目錄選擇)，完成後選擇確定
+
+。opencv
+
+![image](https://user-images.githubusercontent.com/37219754/129231431-735a68ed-cfcc-449c-8ec8-b5a35f4b2191.png)
+
+。opencv2
+
+![image](https://user-images.githubusercontent.com/37219754/129231584-6f414240-af20-413c-bcf3-798a71361b50.png)
+
+。完成狀態
+
+![螢幕擷取畫面 2021-08-13 001643](https://user-images.githubusercontent.com/37219754/129231766-87b2b462-4e8f-4d85-85b7-cb68dd2f3605.jpg)
+
 
 <h3 id="power">。顯示卡算力表</h3>
 
