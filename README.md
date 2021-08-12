@@ -19,13 +19,14 @@
         *   [CUDA 安裝步驟]
     
     *   [cuDNN](#cudnn)
-        *   [cuDNN 安裝步驟步驟]
+        *   [cuDNN 安裝步驟]
 	
     *   [Visual Studio 2019](#visual_studio)
-        *   [Visual Studio 2019 安裝步驟步驟]
+        *   [Visual Studio 2019 安裝步驟]
 		
     *   [OpenCV](#opencv)
-        *   [OpenCV 安裝步驟步驟]
+        *   [OpenCV 安裝步驟](#download)
+        *   [環境變數設置步驟](#set_up)
 
     *   [darknet](#darknet)
         *   [darknet 安裝步驟]
@@ -163,10 +164,25 @@ P.S.選擇local或network皆可
 
 ***
 
-1.進入連結後，找到 opencv3.4.0 for windows 並下載
+<h4 id="download">。OpenCV 安裝步驟</h4>
+
+1.進入連結後，找到 opencv3.4.0 for windows 並下載(可選擇路徑)
 
 ![螢幕擷取畫面 2021-08-12 235655](https://user-images.githubusercontent.com/37219754/129229105-1b7bf2c5-2691-479c-b783-7a04056f3539.jpg)
 
+2.下載完成後，會有一個opencv資料夾
+
+![image](https://user-images.githubusercontent.com/37219754/129229974-9240dd07-ee56-4074-b0f9-3d775972c772.png)
+
+<h4 id="set_up">。環境變數設置步驟</h4>
+
+1.搜尋環境變數並開啟
+
+![螢幕擷取畫面 2021-08-13 000914](https://user-images.githubusercontent.com/37219754/129230704-b1be9934-ef99-4640-9f83-9fb85a99c134.jpg)
+
+2.開啟後，點選環境變數(N)
+
+![螢幕擷取畫面 2021-08-13 001022](https://user-images.githubusercontent.com/37219754/129230861-9a78063d-1f8e-4a62-8ab2-1ad6d1532786.jpg)
 
 
 <h3 id="power">。顯示卡算力表</h3>
