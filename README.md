@@ -32,6 +32,7 @@
     *   [darknet](#darknet)
         *   [darknet 安裝步驟](#darknet_set_up)
         *   [CUDA 版本修改](#version)
+        *   [顯卡算力修改](#change_power)
 
 *   [編譯步驟](#compile)
 
@@ -224,6 +225,29 @@ P.S.選擇local或network皆可
 ![image](https://user-images.githubusercontent.com/37219754/129233130-36681651-a4a4-4b5b-a54f-43838ae79cce.png)
 
 <h4 id="version">。CUDA 版本修改</h4>
+
+1.進入darknet路徑(darknet-master\build\darknet)，找到darknet.vcxproj並用筆記本打開(NotePad++ 或其他)
+
+![螢幕擷取畫面 2021-08-13 003237](https://user-images.githubusercontent.com/37219754/129234028-54434e3f-7ad5-48ee-b446-905006e43245.jpg)
+
+2.ctrl + f 開啟搜尋模式並搜尋CUDA
+
+![image](https://user-images.githubusercontent.com/37219754/129234521-50852bfb-e832-4ebe-b4e3-b8f98aaa5943.png)
+
+3.找到原始CUDA版本並將版本更新為上面下載的版本(總共有2處)
+
+。1
+
+![螢幕擷取畫面 2021-08-13 004146](https://user-images.githubusercontent.com/37219754/129235294-25725150-959d-44a5-8fcb-f121daa157f7.jpg)
+
+
+。2
+
+![螢幕擷取畫面 2021-08-13 004015](https://user-images.githubusercontent.com/37219754/129235155-f7481c28-2cb0-43c5-bbc7-5b011ef267fd.jpg)
+
+
+<h4 id="change_power">。顯卡算力修改</h4>
+
 
 
 
