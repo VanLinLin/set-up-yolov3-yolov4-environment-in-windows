@@ -44,7 +44,7 @@
         *   [介紹]
         *   [步驟]
 
-*   [顯示卡算力表](#power)
+*   [顯示卡算力表](https://developer.nvidia.com/cuda-gpus)
 
 *** 
 
@@ -248,9 +248,11 @@ P.S.選擇local或network皆可
 
 <h4 id="change_power">。顯卡算力修改</h4>
 
+1.搜尋Nvidia Control Panel
 
+![image](https://user-images.githubusercontent.com/37219754/129236115-190482e3-09fb-4f56-8e3c-57a77a224e30.png)
 
+2.找到自己的型號，並參考[顯示卡算力表](https://developer.nvidia.com/cuda-gpus)取得顯卡的算力
 
-<h3 id="power">。顯示卡算力表</h3>
+![螢幕擷取畫面 2021-08-13 004840](https://user-images.githubusercontent.com/37219754/129236309-25a309cd-e726-428c-9ded-6ecf1ec45dd2.jpg)
 
-***
