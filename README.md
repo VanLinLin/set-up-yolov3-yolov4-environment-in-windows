@@ -35,6 +35,7 @@
             *   [darknet.vcxproj](#darknet_vcproj_cuda)
             *   [yolo_cpp_dll.vcxproj](#yolo_cpp_dll_cuda)
         *   [顯卡算力修改](#change_power)
+            *   [取得算力](#get_power)
             *   [darknet.vcxproj](#darknet_vcproj_power)
             *   [yolo_cpp_dll.vcxproj](#yolo_cpp_dll_power)   
 
@@ -240,7 +241,7 @@ P.S.選擇local或network皆可
 
 ![image](https://user-images.githubusercontent.com/37219754/129234521-50852bfb-e832-4ebe-b4e3-b8f98aaa5943.png)
 
-3.找到原始CUDA版本並將版本更新為上面下載的版本(總共有2處)
+3.找到原始CUDA版本並將版本更新為下載的版本11.4(總共有2處)
 
 。1
 
@@ -254,10 +255,24 @@ P.S.選擇local或network皆可
 
 <h5 id="yolo_cpp_dll_cuda">。yolo_cpp_dll.vcxproj</h5>
 
-1.進入darknet路徑(darknet-master\build\darknet)，找到darknet.vcxproj並用筆記本打開(NotePad++ 或其他)
+1.進入darknet路徑(darknet-master\build\darknet)，找到yolo_cpp_dll.vcxproj並用筆記本打開(NotePad++ 或其他)
+
+![螢幕擷取畫面 2021-08-13 011218](https://user-images.githubusercontent.com/37219754/129239580-03cb18f7-99fe-4a88-8c52-5f77d806ae13.jpg)
+
+2.ctrl + f 開啟搜尋模式並搜尋CUDA，然後更新為新版本11.4(總共有2處)
+
+。1
+
+![螢幕擷取畫面 2021-08-13 011522](https://user-images.githubusercontent.com/37219754/129239901-7a0a8bb4-e353-4296-9b98-18d6f704062d.jpg)
+
+。2
+
+![螢幕擷取畫面 2021-08-13 011758](https://user-images.githubusercontent.com/37219754/129240246-3035cf1c-5318-40d0-9b31-5dd697c4243d.jpg)
 
 
 <h4 id="change_power">。顯卡算力修改</h4>
+
+<h5 id="get_power">。取得算力</h5>
 
 1.搜尋Nvidia Control Panel
 
@@ -275,7 +290,12 @@ P.S.選擇local或network皆可
 
 ![螢幕擷取畫面 2021-08-13 005832](https://user-images.githubusercontent.com/37219754/129237639-88775c3e-9260-493a-808c-00a3ed36667d.jpg)
 
-5.回到darknet.vcxproj，並搜尋compute，將compute_X,sm_X改為compute_61(依照自己設備的顯卡算力)
 
+<h5 id="darknet_vcproj_power">。darknet.vcxproj</h5>
 
+1.進入darknet.vcxproj，並搜尋compute
+
+![image](https://user-images.githubusercontent.com/37219754/129240770-9438ea44-19bc-4a14-a7cb-3a1db7948dc6.png)
+
+2.
 
