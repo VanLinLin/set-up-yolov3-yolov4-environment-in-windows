@@ -297,5 +297,29 @@ P.S.選擇local或network皆可
 
 ![image](https://user-images.githubusercontent.com/37219754/129240770-9438ea44-19bc-4a14-a7cb-3a1db7948dc6.png)
 
-2.
+2.將compute_30,sm_30;compute_75,sm_75修改為compute_61(依照自己的顯卡算力)(總共有2處)
+
+。1
+
+![螢幕擷取畫面 2021-08-13 012457](https://user-images.githubusercontent.com/37219754/129241224-121280ce-715d-4046-bf76-ad7f1275acd9.jpg)
+
+。2
+
+![螢幕擷取畫面 2021-08-13 012441](https://user-images.githubusercontent.com/37219754/129241357-ad3a5086-c614-4239-9c8e-fbf917a708dc.jpg)
+
+
+<h5 id="yolo_cpp_dll_power">。yolo_cpp_dll.vcxproj</h5>
+
+1.進入yolo_cpp_dll.vcxproj，搜尋compute後，修改算力(一樣有2處)
+
+。1
+
+![螢幕擷取畫面 2021-08-13 012457](https://user-images.githubusercontent.com/37219754/129241843-ff8479f3-d80d-4205-948c-7dde1b60a04a.jpg)
+
+。2
+
+![螢幕擷取畫面 2021-08-13 012857](https://user-images.githubusercontent.com/37219754/129241947-5c6bd928-2a91-412a-8ce9-e8812968fc10.jpg)
+
+
+
 
