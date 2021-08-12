@@ -31,9 +31,15 @@
 
     *   [darknet](#darknet)
         *   [darknet 安裝步驟](#darknet_set_up)
+
+
+
         *   [CUDA 版本修改](#version)
             *   [darknet.vcxproj](#darknet_vcproj_cuda)
             *   [yolo_cpp_dll.vcxproj](#yolo_cpp_dll_cuda)
+
+
+
         *   [顯卡算力修改](#change_power)
             *   [取得算力](#get_power)
             *   [darknet.vcxproj](#darknet_vcproj_power)
