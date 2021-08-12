@@ -8,6 +8,7 @@
 |cuDNN|8.2.2|[cuDNN](https://developer.nvidia.com/rdp/cudnn-download#)|
 |Visual Studio|2019|[Visual Studio](https://visualstudio.microsoft.com/zh-hans/vs/)|
 |OpenCV|3.4.0|[OpenCV](https://opencv.org/releases/#)|
+|darknet|---|[darknet](https://github.com/AlexeyAB/darknet)|
 *** 
 
 目錄
@@ -201,6 +202,15 @@ P.S.選擇local或network皆可
 。完成狀態
 
 ![螢幕擷取畫面 2021-08-13 001643](https://user-images.githubusercontent.com/37219754/129231766-87b2b462-4e8f-4d85-85b7-cb68dd2f3605.jpg)
+
+
+<h3 id="darknet">。darknet</h3>
+
+***
+
+1.進入網址後，選擇code -> download ZIP，並將檔案下載至自訂路徑
+
+![螢幕擷取畫面 2021-08-13 002217](https://user-images.githubusercontent.com/37219754/129232587-99ea8be6-635f-4a6e-97db-27494e1edfe0.jpg)
 
 
 <h3 id="power">。顯示卡算力表</h3>
