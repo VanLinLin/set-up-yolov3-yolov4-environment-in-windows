@@ -16,17 +16,26 @@
 *   [軟體安裝步驟](#download_step)
 
     *   [CUDA](#cuda)
-        *   [CUDA 安裝步驟](#step)
+        *   [CUDA 安裝步驟]
     
     *   [cuDNN](#cudnn)
-        *   [cuDNN 安裝步驟步驟](#step)
+        *   [cuDNN 安裝步驟步驟]
 	
     *   [Visual Studio 2019](#visual_studio)
-        *   [Visual Studio 2019 安裝步驟步驟](#step)
+        *   [Visual Studio 2019 安裝步驟步驟]
 		
     *   [OpenCV](#opencv)
         *   [OpenCV 安裝步驟步驟](#step)
 
+*   [編譯步驟](#compile)
+
+    *   [darknet.sln](#darknet_sln)
+        *   [介紹](#introduce)
+        *   [步驟](#step)
+    
+    *   [yolo_cpp_dll.sln](#yolo_cpp_dll)
+        *   [介紹](#introduce)
+        *   [步驟](#step)
 
 *   [顯示卡算力表](#power)
 
@@ -35,7 +44,7 @@
 <h2 id="download_step">軟體安裝步驟</h2>
 
 
-<h3 id="cuda">CUDA</h3>
+<h3 id="cuda">。CUDA</h3>
 
 ***
 
@@ -83,7 +92,7 @@ P.S.選擇local或network皆可
 ![螢幕擷取畫面 2021-08-12 210025](https://user-images.githubusercontent.com/37219754/129203084-7ec5f623-46a1-4875-999b-6b998542328f.jpg)
 
 
-<h3 id="cudnn">cuDNN</h3>
+<h3 id="cudnn">。cuDNN</h3>
 
 ***
 
@@ -126,3 +135,8 @@ P.S.選擇local或network皆可
 。lib(需進入到x64檔案夾內)
 
 ![lib](https://user-images.githubusercontent.com/37219754/129225414-cffa8166-61a0-444b-954c-99ac9e468f49.jpg)
+
+
+<h3 id="visual_studio">。Visual Studio 2019</h3>
+
+***
