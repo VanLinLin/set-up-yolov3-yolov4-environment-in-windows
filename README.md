@@ -30,12 +30,12 @@
 *   [編譯步驟](#compile)
 
     *   [darknet.sln](#darknet_sln)
-        *   [介紹](#introduce)
-        *   [步驟](#step)
+        *   [介紹]
+        *   [步驟]
     
     *   [yolo_cpp_dll.sln](#yolo_cpp_dll)
-        *   [介紹](#introduce)
-        *   [步驟](#step)
+        *   [介紹]
+        *   [步驟]
 
 *   [顯示卡算力表](#power)
 
@@ -138,5 +138,11 @@ P.S.選擇local或network皆可
 
 
 <h3 id="visual_studio">。Visual Studio 2019</h3>
+
+***
+
+
+
+<h3 id="power">。顯示卡算力表</h3>
 
 ***
