@@ -32,6 +32,8 @@
     *   [darknet](#darknet)
         *   [darknet 安裝步驟](#darknet_set_up)
         *   [CUDA 版本修改](#version)
+            *   [darknet.vcxproj](#darknet_vcproj)
+            *   [yolo_cpp_dll.vcxproj](#yolo_cpp_dll)
         *   [顯卡算力修改](#change_power)
 
 *   [編譯步驟](#compile)
@@ -225,6 +227,8 @@ P.S.選擇local或network皆可
 ![image](https://user-images.githubusercontent.com/37219754/129233130-36681651-a4a4-4b5b-a54f-43838ae79cce.png)
 
 <h4 id="version">。CUDA 版本修改</h4>
+
+<h5 id="darknet_vcproj">。darknet.vcxproj</h5>
 
 1.進入darknet路徑(darknet-master\build\darknet)，找到darknet.vcxproj並用筆記本打開(NotePad++ 或其他)
 
