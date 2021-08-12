@@ -32,9 +32,11 @@
     *   [darknet](#darknet)
         *   [darknet 安裝步驟](#darknet_set_up)
         *   [CUDA 版本修改](#version)
-            *   [darknet.vcxproj](#darknet_vcproj)
-            *   [yolo_cpp_dll.vcxproj](#yolo_cpp_dll)
+            *   [darknet.vcxproj](#darknet_vcproj_cuda)
+            *   [yolo_cpp_dll.vcxproj](#yolo_cpp_dll_cuda)
         *   [顯卡算力修改](#change_power)
+            *   [darknet.vcxproj](#darknet_vcproj_power)
+            *   [yolo_cpp_dll.vcxproj](#yolo_cpp_dll_power)   
 
 *   [編譯步驟](#compile)
 
@@ -228,7 +230,7 @@ P.S.選擇local或network皆可
 
 <h4 id="version">。CUDA 版本修改</h4>
 
-<h5 id="darknet_vcproj">。darknet.vcxproj</h5>
+<h5 id="darknet_vcproj_cuda">。darknet.vcxproj</h5>
 
 1.進入darknet路徑(darknet-master\build\darknet)，找到darknet.vcxproj並用筆記本打開(NotePad++ 或其他)
 
@@ -250,6 +252,11 @@ P.S.選擇local或network皆可
 ![螢幕擷取畫面 2021-08-13 004015](https://user-images.githubusercontent.com/37219754/129235155-f7481c28-2cb0-43c5-bbc7-5b011ef267fd.jpg)
 
 
+<h5 id="yolo_cpp_dll_cuda">。yolo_cpp_dll.vcxproj</h5>
+
+1.進入darknet路徑(darknet-master\build\darknet)，找到darknet.vcxproj並用筆記本打開(NotePad++ 或其他)
+
+
 <h4 id="change_power">。顯卡算力修改</h4>
 
 1.搜尋Nvidia Control Panel
@@ -267,3 +274,8 @@ P.S.選擇local或network皆可
 4.取得顯卡算力(須乘以10)，e.g. 6.1 x 10 = 61
 
 ![螢幕擷取畫面 2021-08-13 005832](https://user-images.githubusercontent.com/37219754/129237639-88775c3e-9260-493a-808c-00a3ed36667d.jpg)
+
+5.回到darknet.vcxproj，並搜尋compute，將compute_X,sm_X改為compute_61(依照自己設備的顯卡算力)
+
+
+
