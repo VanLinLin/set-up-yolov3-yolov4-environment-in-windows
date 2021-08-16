@@ -327,5 +327,10 @@ P.S.選擇local或network皆可
 ![螢幕擷取畫面 2021-08-13 012857](https://user-images.githubusercontent.com/37219754/129241947-5c6bd928-2a91-412a-8ce9-e8812968fc10.jpg)
 
 
+<h2 id="compile">編譯步驟</h2>
+
+<h3 id="darknet_sln">。darknet.sln</h3>
+
+
 
 
